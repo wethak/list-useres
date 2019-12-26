@@ -1,0 +1,33 @@
+* {
+  margin: 10px 22px;
+}
+.cards {
+  display: grid;
+  grid-row-gap: 50px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#name-radius {
+  content: attr(data-letters);
+  display: inline-block;
+  font-size: 1em;
+  width: 6em;
+  height: 6em;
+  line-height: 2.5em;
+  text-align: center;
+  border-radius: 50%;
+  background: rgb(148, 142, 148);
+  vertical-align: middle;
+  margin-right: 1em;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+#name {
+  margin: 33px 0;
+}
